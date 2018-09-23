@@ -9,7 +9,7 @@ const AddExpensePage = ({ dispatch, history }) => (
         <ExpenseForm 
             onSubmit={(expense) => {
                 dispatch(addExpense(expense));
-                history.push('/');
+                    history.push('/');
             }}
         />
     </div>
